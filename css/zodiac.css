@@ -1,0 +1,106 @@
+@charset = "UTF-8";
+
+body {
+    background-color: #555;
+}
+
+#container {
+    background-color: maroon;
+    width: 1250px; 
+    margin: 0 auto; 
+    border: 7px solid beige;
+    border-radius: 40px;
+    height: 660px;
+    padding: 20px; 
+}
+
+#bigPicDiv {
+    background-color: white;
+    width: 35%; 
+    border: 5px solid tan;
+    border-radius: 20px;
+    padding: 10px; 
+    float: right; 
+    height: 480px;
+    
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+    
+#thumbsDiv {
+    background-color: white;
+    width: 58%; 
+    border: 5px solid tan;
+    border-radius: 20px;
+    text-align: center; 
+    margin-right: 10px; 
+    padding: 10px; 
+    float: left; 
+    height: 480px;
+   
+    background-image: url(../images/janice-w-bunny-600x261.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+footer {
+    height: 30px;
+    clear: both; 
+    text-align: right;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 1.5rem; }
+
+h2 {
+    font-size: 1.25rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 3px;
+    color: whitesmoke;
+    background-color: darkorchid;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+#chinChar {
+    position: absolute; 
+    width: 247px;
+    height: 158px;
+    left: 441px;
+    top: 470px;
+    background-color: white; 
+    text-align: center;
+    display: none; 
+    z-index: 1; 
+}
+
+#chinChar img { 
+    height: 100%; /* make Chin char img fill full height of div */
+    width: auto;
+}
+
+/* hide the RESTART button on initial pg load, since btn is only used during Quiz Mode */
+#restart {
+    display: none;
+}
+
+
+
+
+
+
+
+
